@@ -1,5 +1,4 @@
 var A = [1, 2, 3, 4, 5, 2, 3, 5];
-var nonDuplicates = [...new Set(A)];
 var duplicatesArray = [];
 
 for (var i = 0; i < A.length; i++) {
